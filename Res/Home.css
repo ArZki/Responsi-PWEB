@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+* {
+	text-decoration: none;
+}
+
+body {
+	font-family: "Ubuntu", sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+nav {
+	display: flex;
+	padding-left: 4%;
+	padding-right: 4%;
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: #00334e;
+	position: sticky;
+	top: 0;
+}
+
+.logo {
+	display: flex;
+	flex-direction: row;
+}
+.logo img {
+	width: 100px;
+	height: 100px;
+}
+
+.logo h1 {
+	display: flex;
+	align-items: center;
+	font-style: italic;
+	font-size: 1vh;
+	color: #e8e8e8;
+}
+
+.navbar-nav ul {
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	gap: 30px;
+	cursor: pointer;
+}
+
+.navbar-nav ul li a {
+	text-decoration: none;
+	border: 1px solid #e8e8e8;
+	padding: 20px;
+	border-radius: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	transition: 1s;
+	border: hidden;
+	color: #e8e8e8;
+}
+
+.navbar-nav ul li a:hover {
+	color: #5588a3;
+	box-shadow: 2px 1px 2px 1px #e8e8e8;
+}
+
+.hero {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	background-image: url(./assets/bg-2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+.content {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+}
+
+.title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #e8e8e8;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.content .main-content {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 20px;
+	gap: 20px;
+}
+
+.content .main-content > * {
+	flex: 1 1 1 auto;
+}
+
+.main-content img {
+	width: auto;
+	height: 250px;
+	border-radius: 20px 0 0;
+}
+
+.book {
+	color: #e8e8e8;
+	display: flex;
+	border: 1px solid #5588a3;
+	outline: #e8e8e8 solid 2px;
+	padding: 5px;
+	border-radius: 10px;
+	flex-direction: column;
+}
+
+.book .info {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	background-color: #5588a3;
+	padding: 5px;
+	border-radius: 0 0 20px;
+}
+
+.info label {
+	text-align: center;
+}
+
+.title-content {
+	display: flex;
+	color: #e8e8e8;
+	justify-content: center;
+	font-weight: 900;
+	font-size: 50px;
+	text-align: left;
+	flex-direction: column;
+}
+
+.title-content span {
+	color: #00334e;
+}
+
+.title-content p {
+	font-size: 24px;
+	text-align: start;
+}

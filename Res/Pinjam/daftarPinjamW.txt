@@ -1,0 +1,8 @@
+Nama 					: 
+Email 				: 
+Nomor 				: 
+Judul Buku 		: Critical Mass
+Waktu Awal 		: 
+Waktu Akhir 	: 
+Hari Pinjam 	: 0
+Biaya 				: 0

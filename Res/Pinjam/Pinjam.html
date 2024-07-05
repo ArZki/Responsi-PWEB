@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link
+			rel="stylesheet"
+			href="./Pinjam.css" />
+		<script
+			src="./Pinjam.js"
+			defer></script>
+		<script
+			src="../List/List.js"
+			defer></script>
+	</head>
+	<body>
+		<form
+			action="../Pinjam/Pinjam.php"
+			method="post">
+			<div class="container">
+				<h3>Form Peminjaman</h3>
+				<div class="user">
+					<label for="nama">Nama</label>
+					<input
+						type="text"
+						name="nama"
+						id="Nama"
+						placeholder="Nama" />
+					<label for="email">Email</label>
+					<input
+						type="text"
+						name="email"
+						id="Email"
+						placeholder="Email" />
+					<label for="no">No HP</label>
+					<input
+						type="text"
+						name="nomor"
+						id="Nomor"
+						placeholder="Nomor HP" />
+					<label for="judul">Judul Buku</label>
+					<select
+						id="judulBuku"
+						name="judulBuku"></select>
+					<label for="durasi">Waktu</label>
+					<input
+						type="datetime-local"
+						name="waktuStart"
+						id="Waktu-start"
+						placeholder="Waktu" />
+					<input
+						type="datetime-local"
+						name="waktuEnd"
+						id="Waktu-end"
+						placeholder="Waktu" />
+					<div class="button">
+						<input
+							type="submit"
+							name="Submit"
+							value="OK" />
+						<input
+							type="reset"
+							value="Cancel" />
+					</div>
+				</div>
+			</div>
+		</form>
+	</body>
+</html>

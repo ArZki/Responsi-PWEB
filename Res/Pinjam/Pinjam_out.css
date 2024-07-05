@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+body {
+	font-family: "Ubuntu", sans-serif;
+	padding: 0;
+	margin: 0;
+	color: #e8e8e8;
+	cursor: pointer;
+}
+
+.hero {
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	background-image: url(../assets/bg-3.jpg);
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 50px;
+	flex-direction: column;
+}
+
+.title {
+	display: flex;
+	flex-direction: column;
+}
+.title h4 {
+	font-size: 40px;
+	margin-bottom: -20px;
+	transition: 1s;
+}
+
+.title h4:hover {
+	text-shadow: #e8e8e8 2px 4px 4px;
+}
+
+.title p {
+	font-size: 20px;
+}
+
+.output-put {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	gap: 30px;
+}
+
+.output-put .data a {
+	text-decoration: none;
+	color: #e8e8e8;
+	background-color: #00334e;
+	padding: 10px;
+	border-radius: 13px;
+	outline: solid #e8e8e8 3px;
+}
+
+.output-put .output {
+	background-color: #00334e;
+	border-radius: 13px;
+	padding: 13px;
+	outline: solid #e8e8e8 3px;
+
+}

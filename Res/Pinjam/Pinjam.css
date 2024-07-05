@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+* {
+	text-decoration: none;
+}
+
+body {
+	font-family: "Ubuntu", sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-image: url(../assets/bg-1.jpg);
+	min-height: 100vh;
+	align-items: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+form {
+	margin: 50px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+
+.container {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	outline: #145374 solid 5px;
+	background-color: #e8e8e8;
+	width: 30%;
+	padding: 20px;
+	border-radius: 30px;
+}
+
+.container .user {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	padding: 10px;
+}
+
+label {
+	position: static;
+	font-size: 12px;
+	color: #00334e;
+	margin-bottom: 0px;
+}
+
+input,
+select {
+	text-align: center;
+	margin-top: -15px;
+	border: 1px solid #145374;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+input::placeholder {
+	text-align: center;
+}
+
+.button {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+}
+
+.button input {
+	width: 80px;
+}
